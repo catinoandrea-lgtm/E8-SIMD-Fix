@@ -4,7 +4,7 @@
 
 Andrea Catino — Independent Researcher, Italy
 catino.andrea@gmail.com
-arXiv preprint — cs.AR, cs.MS — June 2026
+IACR ePrint / TCHES — June 2026
 
 ---
 
@@ -121,7 +121,7 @@ bit-identical to the SIMD path on exact ±0.5 inputs, the scalar **must** use
 The remaining rare scalar-vs-SIMD differences (e.g. 999/1000 in the stress
 test) are **coset ties**: the integer coset and the spinor coset are exactly
 equidistant from the input, so the two paths pick different but equally valid
-E�� points (identical squared distance). This is a tie-break convention, not an
+E points (identical squared distance). This is a tie-break convention, not an
 error.
 
 ---
@@ -163,7 +163,7 @@ the worst case.
              and Its Deterministic Fix},
   author = {Catino, Andrea},
   year   = {2026},
-  note   = {arXiv preprint cs.AR, cs.MS},
+  note   = {IACR ePrint / TCHES},
   url    = {https://github.com/catinoandrea-lgtm/E8-SIMD-Fix}
 }
 ```
